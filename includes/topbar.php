@@ -1,6 +1,6 @@
 
     <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content-wrapper" class="d-flex flex-column" style="background-image: url('https://media.istockphoto.com/id/1394354711/photo/car-spare-parts.jpg?b=1&s=170667a&w=0&k=20&c=39SN1JSHe2tsTb7RjBprLxGKO4DQ0WEMk7ocjCe7XSs=');">
 
       <!-- Main Content -->
       <div id="content">
