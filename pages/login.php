@@ -27,23 +27,20 @@
 
 </head>
 
-<body >
-
-  <div class="container">
+<body style="background-image: url('https://media.istockphoto.com/id/1394354711/photo/car-spare-parts.jpg?b=1&s=170667a&w=0&k=20&c=39SN1JSHe2tsTb7RjBprLxGKO4DQ0WEMk7ocjCe7XSs=');">
+  <div class="container" style="color:transparent">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
     
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card o-hidden border-0 shadow-lg my-5 p-2">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
 			
-           
-              
-              
-             
+          
+
 
                   
                     <h1 class="h4 text-gray-900 mb-4">Welcome to Spare parts Management</h1>
