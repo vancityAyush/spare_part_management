@@ -7,6 +7,36 @@
     } ?>
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    body{
+          background-image: url("../img/background.jpg");
+          background-repeat: no-repeat, repeat;
+          background-position: center; /* Center the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+          padding-top: 50px;
+        }
+        .login-form{
+          background:#1a11117a;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          padding: 100px;
+          border-radius: 50px;
+          color: white;
+          box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        .login-heading{
+          text-align: center;
+          margin-top: 20px;
+        }
+        .container{
+          background: #09090a4f;
+          border-radius: 50px;
+          box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+        }
+        .btn-primary{
+          width: 100%;
+        }
+    </style>
 
 <head>
 
@@ -26,26 +56,14 @@
   <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
-
-<body style="background-image: url('https://media.istockphoto.com/id/1394354711/photo/car-spare-parts.jpg?b=1&s=170667a&w=0&k=20&c=39SN1JSHe2tsTb7RjBprLxGKO4DQ0WEMk7ocjCe7XSs=');">
-  <div class="container" style="color:transparent">
-
-    <!-- Outer Row -->
-    <div class="row justify-content-center">
-
-    
-
-        <div class="card o-hidden border-0 shadow-lg my-5 p-2">
-          <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
-			
-          
-
-
-                  
-                    <h1 class="h4 text-gray-900 mb-4">Welcome to Spare parts Management</h1>
-                  </div>
-                  <form class="user" role="form" action="processlogin.php" method="post">
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="login-form">
+            
+        <h1 class="h4 text-white-900 mb-4">Welcome to Spare parts Management</h1>
+        <form class="user" role="form" action="processlogin.php" method="post">
                     <div class="form-group">
                         <input class="form-control form-control-user" placeholder="Username" name="user" type="text" autofocus>
                     </div>
@@ -59,19 +77,12 @@
                     <a class="small" href="register.php">Create an Account!</a>
                   </div> -->
                 </form>
-                </div>
-              </div>
-            </div>
+            <a class="small" href="register.php">Create an Account!</a>
           </div>
         </div>
-
       </div>
-
     </div>
-
-  </div>
-
-  <!-- Bootstrap core JavaScript-->
+    <!-- Bootstrap core JavaScript-->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -80,8 +91,8 @@
 
   <!-- Custom scripts for all pages-->
   <script src="../js/sb-admin-2.min.js"></script>
-
-</body>
+  </body>
+  
 
 </html>
 

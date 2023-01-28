@@ -29,6 +29,13 @@
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
+.body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 50px;
+}
 </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

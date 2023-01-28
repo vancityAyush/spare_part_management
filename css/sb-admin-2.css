@@ -10396,7 +10396,7 @@ a:focus {
 }
 
 #wrapper #content-wrapper {
-  background-color: #f8f9fc;
+  background-color: #f3a199;
   width: 100%;
   overflow-x: hidden;
   background-image: url("https://source.unsplash.com/QdBHnkBdu4g/60x60");
@@ -10406,6 +10406,7 @@ a:focus {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
+  background-color: #000;
 }
 
 .container,
